@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GameShopEngine"
         tools:targetApi="31">
+        <meta-data android:name="WindowManagerPreference:FreeformWindowSize" android:value="maximize" />
+        <meta-data android:name="WindowManagerPreference:FreeformWindowOrientation" android:value="landscape" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="landscape"
+            tools:ignore="DiscouragedApi">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
