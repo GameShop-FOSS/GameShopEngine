@@ -1,8 +1,8 @@
 package com.gameshopcorp.gameshopengine.graphics;
-import com.gameshopcorp.heroes.graphics.ATMS;
-import com.gameshopcorp.heroes.graphics.CurrencyLine;
-import com.gameshopcorp.heroes.graphics.CurrencyMesh;
-import com.gameshopcorp.heroes.graphics.Layer;
+import com.gameshopcorp.gameshopengine.graphics.ATMS;
+import com.gameshopcorp.gameshopengine.graphics.CurrencyLine;
+import com.gameshopcorp.gameshopengine.graphics.CurrencyMesh;
+import com.gameshopcorp.gameshopengine.graphics.Layer;
 import com.jme3.app.SimpleApplication;
 import com.jme3.math.ColorRGBA;
 import com.jme3.math.FastMath;
